@@ -1,0 +1,14 @@
+// function product(a,b){
+//     return a*b
+// }
+// module.exports = product
+
+function sum(a,b){
+    return a+b
+}
+function divide(a,b){
+    return a/b
+}
+// module.exports = sum
+// export default sum
+export {sum, divide}
